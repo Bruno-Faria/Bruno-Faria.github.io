@@ -1,0 +1,93 @@
+﻿<!--#########################################################-->
+<!--#########################################################-->
+<!--##                                                     ##-->
+<!--## Site   : Cadastro                                   ##-->
+<!--## Autor  : Bruno Faria                                ##-->
+<!--## Data   : 27/02/2020                                 ##-->
+<!--## Versão : 1.1.0                                      ##-->
+<!--## Arquivo: cadastro.html                              ##-->
+<!--##                                                     ##-->
+<!--#########################################################-->
+<!--#########################################################-->
+<!DOCTYPE HTML>
+  <head>
+      <title>Cadastro</title>
+  </head>
+ 
+  <body>
+  <form action="" method="POST">
+          <fieldset> 
+             <legend><b>Dados do Usuário</b></legend>
+    <p><label>Nome:</label>
+     <input type="text" name="nome" id="nome" required></p>
+    <p><label>Email:</label>
+     <input type="text" name="email" id="email" required></p>
+    <p><label>Sexo:</label> 
+     <input type="radio" name="masculino" value="masculino" required>Masculino
+     <input type="radio" name="feminino" value="feminino" required>Feminino</p>
+    <p><label>CPF:</label>
+     <input type="number" name="cpf" id="cpf" placeholder="123.456.789-10"/></p>
+
+
+<label>Estado</label> 
+  <select id="estado" name="estado">
+   <option>Selectione...</option>
+    <optgroup label="Norte"> 
+     <option value="AM">Amazonas</option>  
+     <option value="RR">Roraimas</option>
+     <option value="AP">Amapá</option>
+     <option value="PA">Pará</option>
+     <option value="TO">Tocantins</option>
+     <option value="RO">Rondônia</option>
+     <option value="AC">Acre</option>
+    </optgroup>
+    <optgroup label="Nordeste">
+     <option value="MA">Maranhão</option>
+     <option value="PI">Piauí</option>
+     <option value="CE">Ceará</option>
+     <option value="RN">Rio Grande do Norte</option>
+     <option value="PE">Pernambuco</option>
+     <option value="SE">Sergipe</option>
+     <option value="AL">Alagoas</option>
+     <option value="BA">Bahia</option>
+    </optgroup>
+    <optgroup label="Centro-Oeste">
+     <option value="MT">Mato Grosso</option>
+     <option value="MS">Mato Grosso do Sul</option>
+     <option value="GO">Goiás</option>
+    </optgroup>
+    <optgroup label="Sudeste">
+     <option value="SP">São Paulo</option>
+     <option value="RJ">Rio de Janeiro</option>
+     <option value="ES">Espírito Santo</option>
+     <option value="MG">Minas Gerais</options>
+    </optgroup>
+    <optgroup label="Sul">
+     <option value="PR">Paraná</option>
+     <option value="RS">Rio Grande do Sul</option>
+     <option value="SC">Santa Catarina</option>
+    </optgroup></p>
+    </select>
+   <p><label>Cidade:</label>
+     <input type="text" name="cidade" id="cidade"/>
+     <label>Rua:</label>
+     <input type="text" name="rua" id="rua"/>
+     <label>Número:</label>
+     <input type="number" name="numero" id="numero"/>
+     <label>Complemento:</label>
+     <input type="text" name="compl" id="compl"/></p>
+<hr>
+  <p><label><b>Sua mensagem:</b></label></p> 
+    <textarea cols="70" rows="5" placeholder="Mensagem"></textarea></p>
+
+</fieldset></p>
+
+
+    <input type="submit" id="btEnviar" value="Enviar"/>
+<br>
+<br>
+<a href="Rochas e Pedras.html">voltar</a>
+   	
+  </form>
+ </body>
+</html>
